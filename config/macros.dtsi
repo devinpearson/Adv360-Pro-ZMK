@@ -2,7 +2,7 @@ macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_screen";
 #binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp RCMD>, <&kp Q>;
+bindings = <&kp RC(RG(Q))>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
